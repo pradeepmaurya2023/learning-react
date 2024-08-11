@@ -1,8 +1,12 @@
+import React from 'react'
+import Chai from "./Chai";
 
-function App() {
-
+const App = () => {
   return (
-   <h1>Chai aur React | Pradeep</h1>
+    <>
+    <div>App</div>
+    <Chai />
+    </>
   )
 }
 
